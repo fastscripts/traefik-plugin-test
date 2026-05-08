@@ -1,0 +1,11 @@
+displayName: Header Processor
+type: middleware
+import: github.com/deinusername/headerprocessor
+
+summary: Prüft Request-Header, loggt, fügt Request-Header hinzu und setzt Response-Header
+
+testData:
+  checkHeader: X-My-Trigger
+  addRequestHeader: X-Forwarded-Custom
+  addResponseHeader: X-Processed-By
+  addResponseValue: headerprocessor-v1
