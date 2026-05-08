@@ -1,6 +1,6 @@
 displayName: Header Processor
 type: middleware
-import: github.com/deinusername/headerprocessor
+import: github.com/fastscripts/traefik-plugin-test
 
 summary: Prüft Request-Header, loggt, fügt Request-Header hinzu und setzt Response-Header
 
