@@ -2,10 +2,10 @@ displayName: Header Processor
 type: middleware
 import: github.com/fastscripts/traefik-plugin-test
 
-summary: Prüft Request-Header, loggt, fügt Request-Header hinzu und setzt Response-Header
+summary: A simple Traefik plugin that checks a request header and sets a response header.
 
 testData:
-  checkHeader: X-My-Trigger
-  addRequestHeader: X-Forwarded-Custom
-  addResponseHeader: X-Processed-By
-  addResponseValue: headerprocessor-v1
+  requestHeader: X-Custom-Request
+  responseHeader: X-Custom-Response
+  responseValue: "header-was-present"
+  missingValue: "header-was-missing"
